@@ -8,7 +8,8 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 */
 #include <cstdio>
 
-int multiples_3_5(int n):
+int multiples_3_5(int n)
+{
     int res = 0;
     for (int i = 0; i < n; i++)
     {
@@ -16,7 +17,7 @@ int multiples_3_5(int n):
             res += i;
     }
     return res;
-
+}
 
 int main()
 {
